@@ -1,0 +1,12 @@
+
+.filterBttn{
+    padding: 4px 22px;
+
+    border-radius: 32px;
+    border: 0;
+
+    background-color: var(--color-grey-7);
+    color: var(--color-grey-2);
+
+    margin-right: 20px;
+}

@@ -1,1 +1,31 @@
 /* Desenvolva seu estilo aqui */
+
+
+#blogHeader{
+    display: flex;
+}
+
+#blogDesc{
+    width: 50%;
+    padding: 70px 90px;
+}
+
+.blogLogo{
+    display: flex;
+    width: 100%;
+    margin-bottom: 69px;
+}
+
+.logoBox{
+    border-radius: 0px 6px;
+    background-color: var(--color-brand-1);
+    width: 29px;
+    height: 22px;
+    margin-right: 16px;
+}
+
+
+
+#blogBanner{
+    width: 50%
+}
