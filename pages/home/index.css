@@ -29,3 +29,8 @@
 #blogBanner{
     width: 50%
 }
+
+.blogMain{
+    width: 70.625rem;
+    margin: 0 auto;
+}

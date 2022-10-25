@@ -10,3 +10,8 @@
 
     margin-right: 20px;
 }
+
+.selectedFilter{
+    background-color: var(--color-brand-1);
+    color: var(--color-grey-7);
+}
