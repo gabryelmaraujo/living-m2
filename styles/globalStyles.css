@@ -9,12 +9,17 @@
 }
 
 button, a{
-  cursor: pointer
+  cursor: pointer;
+  border: 0;
 }
 
 .appContainer{
   width: 75em;
   margin: 75px auto;
+}
+.postPageContainer{
+  width: 71.25em;
+  margin: 0 auto;
 }
 
 :root {
