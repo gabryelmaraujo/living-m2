@@ -34,7 +34,10 @@ async function postsPush(){
                         <p>${postDesc}</p>
                     </div>
                     <div class="postBttn">
-                        <button class="showPostBttn" id="showPostBttn">Acessar conteúdo</button>
+                        <button class="showPostBttn" id="showPostBttn">
+                            <p class="bttnText">Acessar conteúdo</p>
+                            <img src="/images/spinner.png" alt="" class="loadingSpinner hide">
+                        </button>
                     </div>
 
                 </section>
@@ -56,6 +59,18 @@ async function postsPush(){
             }
 
             localStorage.setItem("@living/selectedPost:", JSON.stringify(clickedPost))
+
+            const buttonChilds = Array.from(e.childNodes)
+
+            const bttnText = buttonChilds[1]
+            bttnText.classList.add("hide")
+
+            const spinner = buttonChilds[3]
+            spinner.classList.remove("hide")
+
+            setTimeout(()=>{
+                window.location.href="/pages/post/index.html"
+            }, 1500)
         })
     })
 
