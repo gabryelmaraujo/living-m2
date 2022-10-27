@@ -91,9 +91,6 @@ const renderNewPosts = async () => {
 
     const post = dados.news
 
-    console.log(dados.nextPage)
-    // page++
-
 
     if(dados.nextPage < 4){
         post.forEach(e =>{
